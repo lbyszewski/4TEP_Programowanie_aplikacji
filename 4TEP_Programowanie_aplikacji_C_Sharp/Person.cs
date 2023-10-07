@@ -11,6 +11,16 @@ namespace _4TEP_Programowanie_aplikacji_C_Sharp
         private string name;
         private int age;
 
+        public Person(string name, int age)
+        {
+            this.Name = name;
+            this.Age = age;
+        }
+
+        public string Name { get => name; set => name = value; }
+        public int Age { get => age; set => age = value; }
+
+
 
 
     }
