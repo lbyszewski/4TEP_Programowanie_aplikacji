@@ -109,6 +109,7 @@ namespace _4TEP_Programowanie_aplikacji_C_Sharp
                     break;
             }
 
+            Console.ReadKey();
 
         }
     }
